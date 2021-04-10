@@ -3,10 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-  	"pm2": "pm2 start processes.json --no-daemon",
-    "start": "node ./bin/www",
-    "test": "jest",
-    "migrate": "node ./bin/migrate.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
